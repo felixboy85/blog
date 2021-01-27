@@ -21,6 +21,14 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 
 
 /* BLocks */
@@ -40,4 +48,7 @@ body {
 @import 'blocks/post';
 @import 'blocks/embed';
 @import 'blocks/pagination';
+@import 'blocks/related';
+@import 'blocks/comments';
+@import 'blocks/form';
 
